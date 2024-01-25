@@ -1,0 +1,77 @@
+/* :root {
+    background-color: grey;
+} */
+
+[v-cloak] {
+    display: none;
+}
+
+.myclass {
+    position: absolute;
+    top: 10vh;
+    right: 10vh;
+    width: 40vh;
+    height: auto;
+    /* outline: red dotted 5px; */
+}
+
+.rounded-borders {
+    border-radius: 1vh;
+}
+
+.q-item-label.top {
+    font-weight: bolder;
+}
+
+.AcceptButton {
+    margin-top: 2vh;
+    width: 30vh;
+    left: 5vh;
+}
+
+.my-picker {
+    position: absolute;
+    /* margin-top: 2vh; */
+    width: 30vh;
+    left: 5vh;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.q-item-label a {
+    cursor: pointer;
+    color: #ffa500;
+    white-space: nowrap;
+    text-align: start;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    color: #ffa500;
+    white-space: nowrap;
+    text-align: start;
+}
+
+#TOS-Explain {
+    text-align: center;
+}
+
+.code {
+    background-color: rgb(105, 105, 105);
+    padding: 0.50vh;
+    border-radius: 0.75vh;
+}
