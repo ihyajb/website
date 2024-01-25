@@ -1,4 +1,5 @@
 const { useQuasar } = Quasar
+
 const app = Vue.createApp({
     data() {
         return {
