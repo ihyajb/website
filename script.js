@@ -31,6 +31,28 @@ const app = Vue.createApp({
             console.log('Yes')
         },
     }
+    
 })
+
+// Define the TopBar component directly in the script.js file
+app.component('top-bar', {
+    props: ['headerText'], // Define the prop for headerText
+    template: `
+        <q-bar id="top-bar" style="color: white;">
+            <span id="HeaderText">{{headerText}}</span>
+            <q-space></q-space>
+            <a>
+                <q-icon id="ButtonIcon" size="lg" name="fa-brands fa-discord"></q-icon>
+            </a>
+            <a href="https://github.com/ihyajb">
+                <q-icon id="ButtonIcon" size="lg" name="fa-brands fa-github"></q-icon>
+            </a>
+            <a href="https://x.com/ihyajb">
+                <q-icon id="ButtonIcon" size="lg" name="fa-brands fa-x-twitter"></q-icon>
+            </a>
+        </q-bar>
+    `,
+});
+
 app.use(Quasar, { config: {} })
 app.mount('#q-app')

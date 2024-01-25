@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/">
+
+<head>
+	<link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/quasar@2.10.1/dist/quasar.prod.css" rel="stylesheet" type="text/css">
+	<title>My Projects</title>
+	<link rel="icon" type="image/x-icon" href="/assets/aj-logo2.ico">
+	<meta name="title" content="ihyajb">
+	<meta name="theme-color" content="#965fb6">
+	<meta name="description" content="Projects by @ihyajb">
+
+	<meta property="og:title" content="ihyajb">
+    <meta property="og:description" content="Projects by @ihyajb">
+    <meta property="og:url" content="https://ihyajb.dev/projects">
+	<meta property="og:image" content="/assets/aj-logo2.png" />
+
+	<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="q-app" v-cloak>
+		<top-bar header-text="@ihyajb's Projects"></top-bar>
+
+		<div id="content" style="padding: 10vh;">
+			<q-card dark class="projectCard">
+				<q-img id="ProjectImage"
+					src="https://preview.redd.it/anyone-know-where-to-find-the-files-for-this-ped-and-what-v0-tr5u6oek259a1.jpg?width=640&crop=smart&auto=webp&s=47563aa8bd4b0dc488e13f2a5ee7e5d7b302aa71">
+					<div class="absolute-bottom text-h6">
+						aj-patrols
+					</div>
+				</q-img>
+		
+				<q-card-section>
+					An Easy to use server-sided ped patrol system for FiveM, using the QBCore Framework
+				</q-card-section>
+				<q-separator style="background-color: var(--color-purple);" inset /></q-separator>
+				<q-card-actions align="right">
+					<q-btn flat color="blue" icon="fa-brands fa-github" label="Visit Resource" href="https://github.com/ihyajb/aj-patrols"/></q-btn>
+					<q-btn flat color="green" icon="fa-solid fa-file-zipper" label="Download" href="https://github.com/ihyajb/aj-patrols/archive/refs/heads/main.zip"/></q-btn>
+				</q-card-actions>
+			</q-card>
+
+			<q-card dark class="projectCard">
+				<q-img id="ProjectImage"
+					src="https://user-images.githubusercontent.com/66404074/179523102-2755bfc5-de80-4022-bf75-4c0268555bc6.png">
+					<div class="absolute-bottom text-h6">
+						Casino Heist Scaleform Research
+					</div>
+				</q-img>
+		
+				<q-card-section>
+					The base resource draws scaleform for all 3 "Casino Heist Boards" and allowed the "Setup" and "Prep" boards to be Interacted with
+				</q-card-section>
+				<q-separator style="background-color: var(--color-purple);" inset /></q-separator>
+				<q-card-actions align="right">
+					<q-btn flat color="blue" icon="fa-brands fa-github" label="Visit Resource" href="https://github.com/ihyajb/Casino-Heist-Scaleform-Test"/></q-btn>
+					<q-btn flat color="green" icon="fa-solid fa-file-zipper" label="Download" href="https://github.com/ihyajb/Casino-Heist-Scaleform-Test/archive/refs/heads/main.zip"/></q-btn>
+				</q-card-actions>
+			</q-card>
+
+			<q-card dark class="projectCard">
+				<q-img id="ProjectImage"
+					src="https://s3.amazonaws.com/prod-media.gameinformer.com/styles/thumbnail/s3/2019/07/18/6b962cc3/gta-small.jpg">
+					<div class="absolute-bottom text-h6">
+						qb-casinoheist
+					</div>
+				</q-img>
+		
+				<q-card-section>
+					qb-casinoheist was at first a meme and was never planned to be finished. Everyone wanted it so we finished it
+				</q-card-section>
+				<q-separator style="background-color: var(--color-purple);" inset /></q-separator>
+				<q-card-actions align="right">
+					<q-btn flat color="blue" icon="fa-brands fa-github" label="Visit Resource" href="https://github.com/ihyajb/qb-casinoheist"/></q-btn>
+					<q-btn flat color="green" icon="fa-solid fa-file-zipper" label="Download" href="https://github.com/ihyajb/qb-casinoheist/archive/refs/heads/main.zip"/></q-btn>
+				</q-card-actions>
+			</q-card>
+
+			<q-card dark class="projectCard">
+				<q-img id="ProjectImage"
+					src="/assets/escrp.png">
+					<div class="absolute-bottom text-h6">
+						EscapeRP's FiveM Server
+					</div>
+				</q-img>
+		
+				<q-card-section>
+					Started working on this server around Aug 10th 2021, the repo for has about 5.9k commits. The discord has 8.7k members
+				</q-card-section>
+				<q-separator style="background-color: var(--color-purple);" inset /></q-separator>
+				<q-card-actions align="right">
+					<q-btn flat color="orange" icon="fa-solid fa-earth-americas" label="Website" href="https://rules.escaperp.com"/></q-btn>
+					<q-btn flat color="orange" icon="fa-brands fa-discord" label="Discord" href="https://discord.gg/escaperp"/></q-btn>
+				</q-card-actions>
+			</q-card>
+			<!-- <a href="../" id="sticky-button">
+				Go to Main
+			</a> -->
+			<q-btn id="sticky-button" flat color="white" icon="fa-solid fa-arrow-left" label="Back to Homepage" href="../"/></q-btn>
+		</div>
+	</div>
+
+	<!-- Add the following at the end of your body tag -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/quasar@2.10.1/dist/quasar.umd.prod.js"></script>
+	<script src="../script.js"></script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@
 -->
 
 <head>
-	<link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet" type="text/css">
+	<link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet" type="text/css">
 	<link href="https://cdn.jsdelivr.net/npm/quasar@2.10.1/dist/quasar.prod.css" rel="stylesheet" type="text/css">
 	<title>Hi, i'm AJ</title>
 	<link rel="icon" type="image/x-icon" href="/assets/aj-logo2.ico">
@@ -24,8 +24,12 @@
 
 <body>
 	<div id="q-app" style="min-height: 100vh;" v-cloak>
-		<div>
-			Hello World
+		<top-bar header-text="Homepage"></top-bar>
+		<div style="padding-top: 7vh;">
+			<span style="color: white; font-size: 2vh; padding: 1vh;">Dont Judge This bad CSS, ill do this later lol<br></span>
+			<a href="/projects">
+				<q-btn style="margin: 1vh; padding: 10px; background-color: #965fb6; color: white; text-decoration: none; border-radius: 5px;" flat color="white" icon-right="fa-solid fa-arrow-right" label="View Projects" href="/projects/"/></q-btn>
+			</a>
 		</div>
 	</div>
 
