@@ -41,7 +41,7 @@ app.component('top-bar', {
         <q-bar id="top-bar" style="color: white;">
             <span id="HeaderText">{{headerText}}</span>
             <q-space></q-space>
-            <a>
+            <a href ="https://discord.com/users/542483477640249354">
                 <q-icon id="ButtonIcon" size="lg" name="fa-brands fa-discord"></q-icon>
             </a>
             <a href="https://github.com/ihyajb">
