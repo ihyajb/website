@@ -1,6 +1,7 @@
-/* :root {
-    background-color: grey;
-} */
+:root {
+    background-color: rgb(53, 53, 53);
+    --color-purple: #965fb6;
+}
 
 [v-cloak] {
     display: none;
@@ -19,59 +20,51 @@
     border-radius: 1vh;
 }
 
-.q-item-label.top {
-    font-weight: bolder;
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7vh;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other elements on the page */
 }
 
-.AcceptButton {
-    margin-top: 2vh;
-    width: 30vh;
-    left: 5vh;
-}
-
-.my-picker {
+#kofi {
     position: absolute;
-    /* margin-top: 2vh; */
-    width: 30vh;
-    left: 5vh;
+    bottom: -10vh;
+    left: 1vh;
+}
+#ButtonIcon{
+    padding: 1vh;
+    color: var(--color-purple) !important;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.fadeIn {
-    animation-name: fadeIn;
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
-}
-
-.q-item-label a {
+#ButtonIcon:hover {
+    color: var(--color-purple);
     cursor: pointer;
-    color: #ffa500;
-    white-space: nowrap;
-    text-align: start;
 }
 
-a:-webkit-any-link {
-    cursor: pointer;
-    color: #ffa500;
-    white-space: nowrap;
-    text-align: start;
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-#TOS-Explain {
-    text-align: center;
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
 }
 
-.code {
-    background-color: rgb(105, 105, 105);
-    padding: 0.50vh;
-    border-radius: 0.75vh;
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-purple);
+    border-radius: 1vh;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b070d4;
+}
+
+a {
+    color: transparent;
 }
